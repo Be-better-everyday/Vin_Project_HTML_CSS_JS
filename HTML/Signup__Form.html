@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale= 1.0">
+        <link rel="stylesheet" href="../assets/CSS/Signup_Form.css">
+    </head>
+    <body>
+        <div class="authen_form">
+            <form class="form__container" action="">
+                <div class="authen__logo"><img src="../assets/image/authen__form.webp" alt=""></div>
+                <div class="authen__title">
+                    <div class="authen__element onclick" id="loginButton"><span>Đăng nhập/ Login</span></div>
+                    <div class="authen__element" id="registerButton"><span>Đăng ký/ Register</span></div>
+                </div>
+                <div class="Form">
+                    <div class="input__container">
+                        <input class="form__input__authen" id="email" type="email" placeholder="Email">
+                        <small class="error" id="emailError"></small>
+                    </div>
+                    <div class="input__container">
+                        <input class="form__input__authen" id="Name" type="text" placeholder="Họ tên / Name">
+                        <small class="error" id="nameError"></small>
+                    </div>
+                    <div class="input__container">
+                        <input class="form__input__authen" id="password" type="password" placeholder="Mật khẩu / Password">
+                        <small class="error" id="passError"></small>
+                    </div>
+                    <div class="input__container">
+                        <input class="form__input__authen" id="password2" type="password" placeholder="Nhập lại mật khẩu / Retype Password">
+                        <small class="error" id="passError"></small>
+                    </div>
+                </div>
+    
+                <div class="remem__forgot">
+                    <div class="remember">
+                        <input type="checkbox" class="remember__box">
+                        <label for="" class="remember__mess">Ghi nhớ tài khoản<br>Remember me</label>
+                    </div>
+                    <div class="forgot">
+                        <p class="forgot__mess">Quên mật khẩu<br>Forgot password</p>
+                    </div>
+                </div>
+                <div class="submit__container"><input type="submit" id="submitId__authen" value="Đăng nhập/LOGIN"></div>
+                
+            </form>
+            <div class="authen__footer">
+                <div class="footer__mess mess1">
+                    <p>Didn't have account?</p>
+                    <a href="#">Register</a>
+                </div>
+                <!-- <div class="footer__mess mess2"></div> -->
+            </div>
+        </div>
+        <script src="../assets/JS/signup__form.js"></script>
+        <script src="../assets/JS/authen__onclick.js"></script>
+    </body>
+</html>

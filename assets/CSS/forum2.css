@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {   
+    --vf-black: #151515;
+    --vf-blue: #1464F4;
+    --bb-primary-button-background-regular: #1464f4;
+    --bb-primary-button-background-hover: #1E42DD;
+    --vf-white: #ffffff;
+    --vf-gray: #92A0B2;
+    --vf-dark-gray: #3C3C3C;
+    --vf-light-gray: #D9E1E2;
+    --vf-web-light-gray: #D9E1E2;
+    --vf-web-light-blue: #D0E0FD;
+    --vf-column-gap: 30px;
+    --vf-row-gap: 30px;
+}
+
+.travel {
+    
+}
+/* travel__article */
+.title_travel {
+    height: 46px;
+    line-height: 46px;
+}
+
+.header__travel {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+}
+
+.header__travel span,
+.header__travel h3 {
+    width: 50% - 10px;
+    padding: 0 10px;
+}
+
+.header__travel h3 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.header__travel span{
+    text-align: right;
+    padding: 0 10px;
+    font-size: 12px;
+    color: var(--vf-blue)
+}
+
+.header__travel span i {
+    padding-left: 5px;
+}
+
+
+/* forum content */
+.forum__content {
+
+    display: flex;
+}
+
+.forum__content .forum__article{
+    width:50%;
+    padding: 0 1.5%;
+}
+
+.forum__content .forum__content__img img {
+    width: 100%;
+    height: 400px;
+    /* border: 0.5px solid black; */
+}
+
+.forum__content .forum__content__img {
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.travel.forum__content__title {
+    display: block;
+}
+
+.forum__content .article__title {
+    line-height: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-top: 24px;
+}
+
+.forum__content .short__article {
+    height: auto;
+    font-size: 13px !important;
+    padding: 16px 16px;
+    font-weight: 100 !important;
+}
+
+.forum__saleman {
+    display: flex;
+    justify-items: center;
+    padding-left: 16px;
+}
+
+.forum__saleman .forum_avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.forum__saleman .saler__name {
+    line-height: 32px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.forum__saleman .forum__posttime {
+    text-align: center;
+    line-height: 32px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight:lighter;
+    color: #707070;
+}
+
+/* Travel Title */
+
+.forum {
+    
+}
+/* forum__article */
+.title_forum {
+    height: 46px;
+    line-height: 46px;
+    margin-top: 70px;
+}
+
+.header__forum {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+}
+
+.header__forum span,
+.header__forum h3 {
+    width: 50% - 10px;
+    padding: 0 10px;
+}
+
+.header__forum h3 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.header__forum span{
+    text-align: right;
+    padding: 0 10px;
+    font-size: 12px;
+    color: var(--vf-blue)
+}
+
+.header__forum span i {
+    padding-left: 5px;
+}
+
+
+/* Travel */
+.travel .title_travel {
+    margin-top: 60px;
+}
+
+.travel__content {
+    display: flex;
+}
+
+.travel__content .travel__article{
+    width: 33.33%;
+    padding: 0 1.33%;
+}
+
+.travel__content .travel__content__img img {
+    width: 100%;
+    height: 230px;
+    transition: transform 0.3s ease-in-out;
+    /* overflow: hidden; */
+    /* border: 0.5px solid black; */
+}
+
+.travel__content .travel__content__img {
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.travel__content__title {
+    display: block;
+}
+
+.travel__content .article__title {
+    line-height: 25px;
+    font-size: 19px;
+    text-decoration: none;
+    padding-left: 0 px;
+    padding-top: 14px;
+}
+
+.travel__content .short__article {
+    height: auto;
+    font-size: 13px !important;
+    padding: 16px 0px;
+    font-weight: 100 !important;
+}
+
+.travel__content .travel__saleman {
+    display: flex;
+    justify-items: center;
+    padding-left: 0px;
+}
+
+.travel__content .travel__saleman .travel_avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.travel__content .travel__saleman .saler__name {
+    line-height: 32px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.travel__content .travel__saleman .travel__posttime {
+    text-align: center;
+    line-height: 32px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight:lighter;
+    color: #707070
+}
+
+/* Technology */
+.tech {
+    /* display: flex; */
+}
+
+.tech_title {
+    /* padding-top: 33px; */
+    display: block;
+}
+
+.tech__content {
+    display: flex;
+}
+
+.tech__content .main__article {
+    width: 70%;
+    height: 615px;
+    background-image: url("../image/tech_main_article.jpg");;
+    background-size: cover;
+    /* background: linear-gradient(180deg, rgba(21, 21, 21, 0.2) 56.77%, rgba(21, 21, 21, 0.3) 73.44%);
+    z-index: 1; */
+    /* opacity: 0.8; */
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 15px;
+    background-position: center;
+    /* position: relative; */
+}
+
+/* .main__article .main__image {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    z-index: 1;
+} */
+
+
+.main__article .btn__main button{
+    display: flex;
+    background-color: var(--vf-blue);
+    color: var(--vf-white);
+    height: 24px;
+    padding: 0 10px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
+}
+
+.main__article .tech__main_heading {
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--vf-white)
+}
+
+.tech__saleman, .tech__posttime {
+    color: var(--vf-white) !important;
+}
+
+.tech__content .forum__saleman {
+    padding-left: 0 !important;
+    padding-bottom: 18px;
+    padding-top: 13px;
+}
+
+.sidebar {
+    display: grid;
+    width: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 30px;
+    grid-row-gap: 12px;
+}
+
+.sidebar__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar .sidebar__image {
+    width: 58%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.sidebar .sub__tech__article {
+    width:
+    padding-left: 26px;
+    margin-right: 20px;
+    color: #1e2132;
+    /* border-bottom: 1px solid #1e2132; */
+    padding:0px 0px 10px 30px;
+}
+
+.sub__tech__article .tech__title {
+    line-height: 24px;
+    color: #1e2132 !important;
+    font-weight: lighter;
+    columns: inherit;
+    font-size: 16px;
+    
+}
+
+.sub__tech__article .forum__saleman {
+    color: #707070 !important;
+    font-size: 12px;
+}
+
+.sub__tech__article .forum__posttime {
+    color: #9b9c9f !important;
+}
+
+.sidebar__item .avatar__container {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    /* margin-left: px; */
+    border-bottom: 1px #b0b1b4 solid;
+}
+
+
+/* .img__container img{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img__container {
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+} */
+
+
+.img__hover__bigger:hover img {
+    transform: scale(1.05) !important;
+    /* overflow: hidden; */
+}
+
+.tech__main_heading:hover {
+    /* color: var(--vf-blue); */
+}
+
+.tech__title, 
+.article__title {
+    color: var(--vf-black);
+}
+
+.tech__title:hover,
+.article__title:hover {
+    color: var(--bb-primary-button-background-hover) !important;
+}
+
+.extras {
+    color: var(--bb-primary-button-background-regular);
+    text-decoration: none;
+}

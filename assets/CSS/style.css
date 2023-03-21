@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {   
+    --vf-black: #151515;
+    --vf-blue: #1464F4;
+    --bb-primary-button-background-regular: #1464f4;
+    --bb-primary-button-background-hover: #1E42DD;
+    --vf-white: #ffffff;
+    --vf-gray: #92A0B2;
+    --vf-dark-gray: #3C3C3C;
+    --vf-light-gray: #D9E1E2;
+    --vf-web-light-gray: #D9E1E2;
+    --vf-web-light-blue: #D0E0FD;
+    --vf-column-gap: 30px;
+    --vf-row-gap: 30px;
+}
+
+body {
+    /* background-image: linear-gradient(to right, red , yellow); */
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    border-bottom: 1px solid var(--vf-black);
+    background-color: white;
+    justify-content: space-between;
+    align-content: center;
+}
+.l_header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.authen-form {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.l_header .buy_now {
+    margin-right: 20px !important;
+}
+
+.cart__nav {
+    font-size: 20px !important;
+    padding-right: 8px;
+}
+
+.authen-form .btn__authen{
+    
+    line-height: 34px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 16px;
+    /* color: red; */
+    text-decoration: none;
+}
+
+.btn__signup {
+    background-color: var(--vf-blue);
+    color: var(--vf-white);
+    /* margin-left: px; */
+}
+
+.btn__signup:hover {
+    background-color: var(--bb-primary-button-background-hover);
+}
+
+.btn__login {
+    margin-left: 5px;
+    /* border-left: 2px solid var(--vf-black); */
+}
+
+.btn__login:hover {
+    color: var(--bb-primary-button-background-regular);
+}
+
+.l_header .icon {
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+.l_header span {
+    width: 2px;
+    height: 24px;
+    background-color: #151515;
+
+}
+
+.r-header {
+    display: flex;
+}
+
+.r-header .logo {
+    margin-left: 20px;
+    padding: 6px 0;
+}
+.r-header .logo img {
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    padding: 6px 30px 6px 0;
+}
+
+.nav .nav_bar{
+    height: 100%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    position: relative;
+    line-height: normal;
+}
+
+.nav .nav_bar > li {
+    list-style: none;
+    padding: 0 10px;
+    line-height:  72px;
+    display: block;
+    height: 72px;
+    top: 50%;
+}
+
+.nav_bar li a {
+    text-decoration: none;
+    font-size: 1.6rem ;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.nav_bar li .droplist {
+    position: absolute;
+    top: 100%;
+    display: none;
+    z-index: 1;
+    background-color: white ;
+    border-radius: 3px;
+    box-shadow: 0 0 0.3 var(--vf-web-light-gray);
+}
+
+.nav_bar li:hover .droplist {
+    display: block;
+
+}
+
+.nav_bar li:hover {
+    background-color: #ccc;
+}
+
+.droplist > li {
+    text-decoration: none;
+    font-size: 1.6rem ;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 1.6rem;
+    padding: 12px 6px ;
+    list-style: none;
+}
+
+.slider {
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/anh-dep-thien-nhien-3.webp);
+    background-size: cover;
+    background-position-y: 20%;
+    z-index: 2;
+}
+
+.content {
+
+}
+
+.footer {
+    background-image: linear-gradient(to right, red , yellow);
+    height: 300px;
+}

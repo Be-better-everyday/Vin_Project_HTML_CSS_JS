@@ -1,0 +1,106 @@
+:root {   
+    --vf-black: #151515;
+    --vf-blue: #1464F4;
+    --bb-primary-button-background-regular: #1464f4;
+    --bb-primary-button-background-hover: #1E42DD;
+    --vf-white: #ffffff;
+    --vf-gray: #92A0B2;
+    --vf-dark-gray: #3C3C3C;
+    --vf-light-gray: #D9E1E2;
+    --vf-web-light-gray: #D9E1E2;
+    --vf-web-light-blue: #D0E0FD;
+    --vf-column-gap: 30px;
+    --vf-row-gap: 30px;
+}
+
+forum {
+    
+}
+
+.title_forum {
+    height: 46px;
+    line-height: 46px;
+}
+
+.header__forum {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+}
+
+.header__forum span,
+.header__forum h3 {
+    width: 50% - 10px;
+    padding: 0 10px;
+}
+
+.header__forum h3 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.header__forum span{
+    text-align: right;
+    padding: 0 10px;
+    font-size: 12px;
+    color: var(--vf-blue)
+}
+
+.header__forum span i {
+    padding-left: 5px;
+}
+
+.forum__content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 6px;
+}
+
+.forum__content .forum__article {
+    display: flex;
+    width: 47%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.forum__content__img {
+    width: 100%;
+}
+
+.forum__content .gap {
+    
+}
+
+.forum__content .forum__article>img {
+    width: 47%;
+}
+
+.forum__content .forum__content__title{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.forum__content__title .avatar{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.avatar img {
+    display: block; /* Hiển thị ảnh là một khối phần tử */
+    width: 100%; /* Hiển thị ảnh toàn bộ trong phần tử cha */
+    height: auto; /* Giữ tỷ lệ khung hình của ảnh */
+}
+
+.forum__content__title > a {
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
