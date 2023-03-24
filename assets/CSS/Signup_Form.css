@@ -82,6 +82,11 @@ html {
     /* display: block; */
 }
 
+.input__container #Name,
+.input__container #password2 {
+    display: none;
+}
+
 .Form .error {
     color: red;
 

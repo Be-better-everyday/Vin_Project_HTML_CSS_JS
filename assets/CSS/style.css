@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 1263px;
+}
+
 :root {   
     --vf-black: #151515;
     --vf-blue: #1464F4;
@@ -30,6 +34,7 @@ html {
 
 .header {
     position: fixed;
+    top: 0;
     width: 100%;
     height: 72px;
     display: flex;
@@ -37,6 +42,7 @@ html {
     background-color: white;
     justify-content: space-between;
     align-content: center;
+    z-index: 1000;
 }
 .l_header {
     display: flex;
@@ -107,11 +113,13 @@ html {
 .r-header .logo {
     margin-left: 20px;
     padding: 6px 0;
+    display: flex;
+    align-items: center;
 }
 .r-header .logo img {
     display: inline-block;
-    width: 150px;
-    height: 60px;
+    width: 180px;
+    /* height: 60px; */
     padding: 6px 30px 6px 0;
 }
 
@@ -138,6 +146,7 @@ html {
     font-size: 1.6rem ;
     text-transform: capitalize;
     font-weight: bold;
+    color: var(--vf-black);
 }
 
 .nav_bar li .droplist {
@@ -145,8 +154,10 @@ html {
     top: 100%;
     display: none;
     z-index: 1;
+    padding-bottom: 8px;
+    border-radius: 8px;
     background-color: white ;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 0 0 0.3 var(--vf-web-light-gray);
 }
 
@@ -155,8 +166,14 @@ html {
 
 }
 
-.nav_bar li:hover {
+.nav_bar li:hover a#mainpage{
     background-color: #ccc;
+}
+
+a#mainpage {
+    padding: 10px 12px;
+    border-radius: 8px;
+    height: 50%;
 }
 
 .droplist > li {
@@ -165,24 +182,37 @@ html {
     text-transform: capitalize;
     font-weight: bold;
     line-height: 1.6rem;
-    padding: 12px 6px ;
+    padding: 0 6px ;
     list-style: none;
+}
+
+.droplist > li > div {
+    margin: 0 5px;
+    padding: 12px 8px;
+    border-radius: 8px;
+}
+
+.droplist > li:hover >div{
+    background-color: var(--vf-gray);
 }
 
 .slider {
     width: 100%;
-    height: 300px;
-    background-image: url(../image/anh-dep-thien-nhien-3.webp);
+    /* height: 300px; */
+    /* background-image: url(../image/anh-dep-thien-nhien-3.webp); */
+    background-color: #ffffff;
     background-size: cover;
     background-position-y: 20%;
     z-index: 2;
 }
 
+/* .vin_news_container {
+    border-bottom: 1px #ccc solid ;
+} */
+
 .content {
-
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ccc;
 }
 
-.footer {
-    background-image: linear-gradient(to right, red , yellow);
-    height: 300px;
-}
+

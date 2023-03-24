@@ -19,6 +19,13 @@
     --vf-row-gap: 30px;
 }
 
+.travel__article.vins__news .article__title {
+    font-size: unset;
+    font-size: 20px !important;
+    font-weight: 300;
+    /* color: var(--vf-gray) !important; */
+} 
+
 .travel {
     
 }
@@ -98,6 +105,10 @@
     font-weight: 100 !important;
 }
 
+.short__article{
+    color: #5a5a5a;
+}
+
 .forum__saleman {
     display: flex;
     justify-items: center;
@@ -137,7 +148,7 @@
 .title_forum {
     height: 46px;
     line-height: 46px;
-    margin-top: 70px;
+    margin-top: 16px;
 }
 
 .header__forum {
@@ -199,6 +210,10 @@
 .travel__content__title {
     display: block;
 }
+
+/* .travel__content .onlytravel .article__title{
+    
+} */
 
 .travel__content .article__title {
     line-height: 25px;
@@ -262,11 +277,14 @@
 .tech__content .main__article {
     width: 70%;
     height: 615px;
-    background-image: url("../image/tech_main_article.jpg");;
+    background-image: url("../image/tech_main_article.jpg");
+    filter: grayscale(30%) brightness(80%);
     background-size: cover;
     /* background: linear-gradient(180deg, rgba(21, 21, 21, 0.2) 56.77%, rgba(21, 21, 21, 0.3) 73.44%);
     z-index: 1; */
     /* opacity: 0.8; */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    opacity: 0.9;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -404,4 +422,5 @@
 .extras {
     color: var(--bb-primary-button-background-regular);
     text-decoration: none;
+    font-weight: 600;
 }

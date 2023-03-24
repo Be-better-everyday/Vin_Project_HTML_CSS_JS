@@ -1,0 +1,87 @@
+:root {   
+    --vf-black: #151515;
+    --vf-blue: #1464F4;
+    --bb-primary-button-background-regular: #1464f4;
+    --bb-primary-button-background-hover: #1E42DD;
+    --vf-white: #ffffff;
+    --vf-gray: #92A0B2;
+    --vf-dark-gray: #3C3C3C;
+    --vf-light-gray: #D9E1E2;
+    --vf-web-light-gray: #D9E1E2;
+    --vf-web-light-blue: #D0E0FD;
+    --vf-column-gap: 30px;
+    --vf-row-gap: 30px;
+}
+
+.recently {
+    /* margin-top: 10px; */
+    padding-left: 10px;
+}
+.recently__containner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-column-gap: 30px; */
+}
+
+.recently .header__forum {
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.recently .header__forum h3 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.recently__item {
+    display: flex;
+    height: 200px;   
+}
+
+.recently__item {
+    /* display: inline-block; */
+    /* max-width: 640px; */
+    max-height: 230px;
+    margin-left: 8px;
+}
+
+.img__recently__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 273px !important;
+    height: 180px;
+    overflow: hidden;
+    /* border: 1px solid #000; */
+}
+
+.img__recently__item img {
+    /* width: 100%; */
+    height: 180px;
+    height: auto;
+    object-fit: cover;
+}
+
+.sub__tech__article {
+    margin-left: 30px;
+}
+
+.forum__saleman {
+    padding-left: unset !important;
+}
+
+.recently__item .tech__title {
+    font-size: 20px !important;
+    line-height: 24px;
+    color: var(--vf-black);
+   
+}
+
+.recently__item .forum__saleman {
+    padding-top: 10px;
+}
+
+.recently__item .sub__tech__article {
+    width: unset;
+    max-width: 330px !important;
+}

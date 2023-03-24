@@ -1,0 +1,120 @@
+/* Them vao de phan vung */
+.add_item {
+    position:relative;
+    width: 100%;
+    height: 300px !important;
+    background: url(../image/anh-dep-thien-nhien-3.webp) center/cover no-repeat;
+}
+
+/* Main CSS Slider */
+
+:root {   
+    --vf-black: #151515;
+    --vf-blue: #1464F4;
+    --bb-primary-button-background-regular: #1464f4;
+    --bb-primary-button-background-hover: #1E42DD;
+    --vf-white: #ffffff;
+    --vf-gray: #92A0B2;
+    --vf-dark-gray: #3C3C3C;
+    --vf-light-gray: #D9E1E2;
+    --vf-web-light-gray: #D9E1E2;
+    --vf-web-light-blue: #D0E0FD;
+    --vf-column-gap: 30px;
+    --vf-row-gap: 30px;
+}
+
+.slider__item {
+    width: 100%;
+    height: 710px;
+    /* height: 615px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
+    position: relative;
+    top: 72px;
+}
+
+.slider__item img {
+    width: 100%;
+    height: 100%;
+    /* padding-top: 710px; */
+    filter: grayscale(30%) brightness(80%);
+
+    /* position: absolute; */
+}
+
+.slider__title {
+    position: absolute;
+    bottom: 0;
+    padding-left:30px;
+    padding-bottom: 80px;
+}
+
+.slider__main_heading {
+    width: 850px;
+    word-wrap: normal;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing:-0.72px;
+    line-height: 43.2px;
+    margin-bottom: 28px;
+    color: #fff;
+}
+
+.slider__item1  .forum__saleman {
+
+}
+
+.slider__item .slider_avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.slider__saleman {
+    display: flex;
+    align-items: center;
+    color:#fff;
+    font-size: 12px;
+}
+
+.slider__saleman_name {
+    padding: 0 12px;
+    font-weight: 700;
+}
+
+
+.slider {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider__btn__container {
+    height: 28px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: -14px;
+}
+
+.slider__btn__container .slider__btn {
+    width: 14px ;
+    height: 14px;
+    line-height: 20px;
+    border-radius: 50%;
+    /* background-color: blue; */
+    margin: 8px;
+    border: 0.5px solid #ccc;
+    cursor: pointer;
+    
+}
+
+.slider__btn.active {
+    background-color: var(--vf-blue);
+    border: var(--vf-blue);
+}
