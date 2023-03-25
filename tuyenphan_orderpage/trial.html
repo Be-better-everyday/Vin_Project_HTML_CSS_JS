@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trialvincarsales.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>vinfast_odercar</title>
+</head>
+<body>
+<div class="container">
+    <div class="tab-left">
+        <div class="tab-left-header">
+            <!-- <img id="logo" src="/image/LOGO/logohtml.png" alt="logovf"> -->
+            <img id="logo" src="/image/LOGO/logohtml.png" alt="logovf">
+            <div>
+                <button id="tab-left-header-button" onclick="openLogin()">Đăng Nhập</button>
+                <form id="login-form" action="" method="post">
+                    <label for="username">User:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <input type="submit" value="Đăng nhập">
+                </form>
+            </div>
+        </div>
+        <div class="vfcar-show">
+            <ul class="car-list">
+                <li class="fadin-button">
+                    <button id="fadin-select">
+                        <img class="image-car" src="https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw9ad4801e/images/mega-menu/car/Fadil_hover.png" alt="">
+                        Fadin
+                    </button>
+                </li>
+                <li class="luxa-button">
+                    <button id="luxa-select">
+                        <img class="image-car" src="https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwa53eb41c/images/mega-menu/car/Lux-A2.0_hover.png" alt="">
+                        Lux A2.0
+                    </button>
+                </li>
+                <li class="luxsa-button">
+                    <button id="luxsa-select">
+                        <img class="image-car" src="https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw5961fcab/images/mega-menu/car/Lux-SA2.0_hover.png" alt="">
+                        Lux SA2.0
+                    </button>
+                </li>
+                <li class="president-button">
+                    <button id="president-select">
+                        <img class="image-car" src="https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwd094634a/images/mega-menu/car/President_hover.png" alt="">
+                        President
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-left-box">
+            <div id="fadin-image-ngoaithat" class="fadin-image-ngoaithat">
+                <div class="main-fadin-img">
+                    <img class="img-fadin-future" src="/image/FADIN/NTF1.jpg" alt="">
+                </div>
+                <div class="list-fadin-img">
+                    <div><img src="/image/FADIN/NTF2.png" alt=""></div>
+                    <div><img src="/image/FADIN/NTFD1.jpg" alt=""></div>
+                    <div><img src="/image/FADIN/NTFD2.jpg" alt=""></div>
+                    <div><img src="/image/FADIN/NTFD3.jpg" alt=""></div>
+                    <div><img src="/image/FADIN/NTFD4.jpg" alt=""></div>
+                    <div><img src="/image/FADIN/NTFD5.jpg" alt=""></div>
+                </div>
+                <div class="fadin-in4">
+                    <ul class="fadin-in4-1">
+                        <li class="fadin-in4-li-1">
+                            <h2>1.4 L</h2>
+                            <p>ĐỘNG CƠ</p>
+                        </li>
+                        <li class="fadin-in4-li-2">
+                            <h2>CVT</h2>
+                            <p>HỘP SỐ</p>
+                        </li>
+                        <li class="fadin-in4-li-1">
+                            <h2>98HP</h2>
+                            <p>CÔNG SUẤT</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="luxa-image-ngoaithat" class="luxa-image-ngoaithat">
+                <div class="main-luxa-img">
+                    <img class="img-luxa-future" src="/image/LUXA/NTL1.png" alt="">
+                </div>
+                <div class="list-luxa-img">
+                    <div><img src="/image/LUXA/NTL2.png" alt=""></div>
+                    <div><img src="/image/LUXA/NTLX1.png" alt=""></div>
+                    <div><img src="/image/LUXA/NTLX2.jpg" alt=""></div>
+                    <div><img src="/image/LUXA/NTLX3.jpeg" alt=""></div>
+                    <div><img src="/image/LUXA/NTLX4.jpg" alt=""></div>
+                    <div><img src="/image/LUXA/NTLX5.jpg" alt=""></div>
+                </div>
+                <div class="luxa-in4">
+                    <ul class="luxa-in4-1">
+                        <li class="luxa-in4-li-1">
+                            <h2>2.0L</h2>
+                            <p>ĐỘNG CƠ MẠNH MẼ</p>
+                        </li>
+                        <li class="luxa-in4-li-2">
+                            <h2>228HP</h2>
+                            <p>CÔNG SUẤT</p>
+                        </li>
+                        <li class="luxa-in4-li-1">
+                            <h2>ZF 8 CẤP</h2>
+                            <p>HỘP SỐ TỰ ĐỘNG</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="luxsa-image-ngoaithat" class="luxsa-image-ngoaithat">
+                <div class="main-luxs-img">
+                    <img class="img-luxsa-future" src="/image/LUXSA/NTLS1.png" alt="">
+                </div>
+                <div class="list-luxsa-img">
+                    <div><img src="/image/LUXSA/NTLS2.png" alt=""></div>
+                    <div><img src="/image/LUXSA/NTLXS1.jpg" alt=""></div>
+                    <div><img src="/image/LUXSA/NTLXS4.jpg" alt=""></div>
+                    <div><img src="/image/LUXSA/NTLXS3.jpg" alt=""></div>
+                    <div><img src="/image/LUXSA/NTLXS5.jpg" alt=""></div>
+                </div>
+                <div class="luxsa-in4">
+                    <ul class="luxsa-in4-1">
+                        <li class="luxsa-in4-li-1">
+                            <h2>2.0L</h2>
+                            <p>ĐỘNG CƠ MẠNH MẼ</p>
+                        </li>
+                        <li class="luxsa-in4-li-2">
+                            <h2> 228HP </h2>
+                            <p>CÔNG SUẤT</p>
+                        </li>
+                        <li class="luxsa-in4-li-1">
+                            <h2>ZF 8 CẤP</h2>
+                            <p>HỘP SỐ TỰ ĐỘNG</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="president-image-ngoaithat" class="president-image-ngoaithat">
+                <div class="main-president-img">
+                    <img class="img-president-future" src="/image/PRESIDENT/NT1.jpg" alt="">
+                </div>
+                <div class="list-president-img">
+                    <div><img src="https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw5800f67b/images/President/hinh-anh-gia-VinFast-President-mau-ghi-gray.png" alt=""></div>
+                    <div><img src="/image/PRESIDENT/NTP1.jpg" alt=""></div>
+                    <div><img src="/image/PRESIDENT/NTP2.jpg" alt=""></div>
+                    <div><img src="/image/PRESIDENT/NTP3.jpg" alt=""></div>
+                    <div><img src="/image/PRESIDENT/NTP6.jpg" alt=""></div>
+                </div>
+                <div class="president-in4">
+                    <ul class="president-in4-1">
+                        <li class="president-in4-li-1">
+                            <h2>V8 6.2L</h2>
+                            <p>ĐỘNG CƠ MẠN MẼ</p>
+                        </li>
+                        <li class="president-in4-li-2">
+                            <h2> 420HP </h2>
+                            <p>CÔNG SUẤT</p>
+                        </li>
+                        <li class="president-in4-li-1">
+                            <h2>6.8 GIÂY</h2>
+                            <p>TĂNG TỐC TỪ 0-100KM/H</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tab-right">
+    <div class="tab-right-header">
+        <h2 class="tab-right-header-h2">Thông Tin Khách Hàng</h2>
+        <p>Quý khách vui lòng điền đầy đủ thông tin để đặt xe hoặc được hỗ trợ</p>
+    </div>
+    <div class="tab-right-main">
+        <form id="myForm" action="" method="post">
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Địa chỉ:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="payment">Hình Thức Thanh Toán:</label>
+            <select id="payment" name="payment">
+                <option value="cash">Tiền Mặt</option>
+                <option value="installment">Trả Góp</option>
+                <option value="voucher">Sử Dụng Voucher</option>
+            </select>
+
+            <label for="car">Chọn loại xe:</label>
+            <select id="car" name="car">
+                <option value="president">President</option>
+                <option value="luxsa">Lux SA2.0</option>
+                <option value="luxa">Lux A2.0</option>
+                <option value="fadin">Fadin</option>
+            </select>
+
+            <label for="note">Ghi chú</label>
+            <input type="text" id="note" name="note" required>
+
+            <button class="button-submit" onclick="validateForm()">ĐẶT HÀNG</button>
+        </form>
+    </div>
+</div>
+<script></script>
+
+</body>
+</html>
